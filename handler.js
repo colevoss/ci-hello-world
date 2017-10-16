@@ -4,7 +4,7 @@ module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'GOT THE REPO UP AND RUNNING',
+      message: 'GOT TRAVIS UP AND RUNNING ON A BRANCH',
       input: event,
     }),
   };
